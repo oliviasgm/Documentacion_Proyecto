@@ -1,1 +1,10 @@
-
+site_name: Documentación Proyecto
+site_url: https://oliviasgm.github.io/Documentacion_Proyecto/
+docs_dir: 'docs_src'
+site_dir: 'docs'
+nav:
+  - Inicio: README.md
+  - Manual de Usuario: Manual_de_Usuario.md
+  - Guia de Referencia: Guia_de_Referencia.md
+  - Guia de Instalacion: Guia_de_Instalacion.md
+theme: readthedocs
