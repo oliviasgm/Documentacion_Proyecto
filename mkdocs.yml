@@ -7,4 +7,5 @@ nav:
   - Manual de Usuario: Manual_de_Usuario.md
   - Guia de Referencia: Guia_de_Referencia.md
   - Guia de Instalacion: Guia_de_Instalacion.md
+repo_url: https://github.com/oliviasgm/Documentacion_Proyecto
 theme: readthedocs
