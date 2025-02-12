@@ -2,14 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://oliviasgm.github.io/Documentacion_Proyecto/Guia_de_Instalacion/</loc>
-         <lastmod>2025-02-11</lastmod>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://oliviasgm.github.io/Documentacion_Proyecto/Guia_de_Referencia/</loc>
-         <lastmod>2025-02-11</lastmod>
+         <lastmod>2025-02-12</lastmod>
     </url>
     <url>
          <loc>https://oliviasgm.github.io/Documentacion_Proyecto/Manual_de_Usuario/</loc>
-         <lastmod>2025-02-11</lastmod>
+         <lastmod>2025-02-12</lastmod>
+    </url>
+    <url>
+         <loc>https://oliviasgm.github.io/Documentacion_Proyecto/PDF/</loc>
+         <lastmod>2025-02-12</lastmod>
     </url>
 </urlset>
