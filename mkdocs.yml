@@ -1,0 +1,33 @@
+site_name: Documentación Proyecto
+site_url: https://oliviasgm.github.io/Documentacion_Proyecto/
+docs_dir: 'docs_src'  # Carpeta de archivos de entrada
+site_dir: 'docs'      # Carpeta de salida del sitio generado
+nav:
+  - Manual de Usuario: Manual_de_Usuario.md
+  - Guia de Referencia: Guia_de_Referencia.md
+  - Guia de Instalacion: Guia_de_Instalacion.md
+  - Descarga en pdf:
+      - Manual de Usuario PDF: Manual_de_Usuario/Manual_de_Usuario.pdf
+      - Guia de Referencia PDF: Guia_de_Referencia/Guia_de_Referencia.pdf
+      - Guia de Instalacion PDF: Guia_de_Instalacion/Guia_de_Instalacion.pdf
+theme: 
+  name: readthedocs
+plugins:
+  - search
+  - pdf-export:
+      enabled if_env: ENABLE_PDF_EXPORT
+      media_type: print
+  - with-pdf:
+      author: Olivia Susana Guziak
+      copyright: CCO 1.0 Universal
+      cover: true
+      back_cover: false
+      cover_title: Documentacion de Proyecto
+      cover_subtitle: Desarrollo interfaces -2º DAM
+      toc_title: Índice
+      toc_level: 2
+      ordered_chapter_level: 2
+      output_path: pdf/Manual_de_Usuario.pdf  # Ruta de salida del PDF generado
+
+
+
