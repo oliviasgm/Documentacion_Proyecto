@@ -6,12 +6,17 @@ nav:
   - Manual de Usuario: Manual_de_Usuario.md
   - Guia de Referencia: Guia_de_Referencia.md
   - Guia de Instalacion: Guia_de_Instalacion.md
-  - Descarga en pdf: PDF.md
+  - Descarga en pdf:
+      - Manual de Usuario PDF: Manual_de_Usuario/Manual_de_Usuario.pdf
+      - Guia de Referencia PDF: Guia_de_Referencia/Guia_de_Referencia.pdf
+      - Guia de Instalacion PDF: Guia_de_Instalacion/Guia_de_Instalacion.pdf
 theme: 
   name: readthedocs
 plugins:
   - search
-  - pdf-export
+  - pdf-export:
+      enabled if_env: ENABLE_PDF_EXPORT
+      media_type: print
   - with-pdf:
       author: Olivia Susana Guziak
       copyright: CCO 1.0 Universal
