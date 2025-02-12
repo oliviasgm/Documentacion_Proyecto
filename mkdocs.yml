@@ -1,21 +1,18 @@
 site_name: Documentación Proyecto
 site_url: https://oliviasgm.github.io/Documentacion_Proyecto/
-docs_dir: 'docs_src'  # Directorio de documentos de origen
-site_dir: 'docs'  # Directorio donde se generará el sitio web
-
+docs_dir: 'docs_src'  # Carpeta de archivos de entrada
+site_dir: 'docs'      # Carpeta de salida del sitio generado
 nav:
   - Manual de Usuario: Manual_de_Usuario.md
   - Guia de Referencia: Guia_de_Referencia.md
   - Guia de Instalacion: Guia_de_Instalacion.md
   - Descarga en pdf: PDF.md
-
 theme: 
-  name: material  # Cambié el tema a 'material', ya que el de 'readthedocs' estaba dando problemas.
-
+  name: readthedocs
 plugins:
-  - search  # Plugin de búsqueda
-  - pdf-export  # Exportación a PDF
-  - with-pdf:  # Plugin para exportar documentos a PDF
+  - search
+  - pdf-export
+  - with-pdf:
       author: Olivia Susana Guziak
       copyright: CCO 1.0 Universal
       cover: true
@@ -25,9 +22,7 @@ plugins:
       toc_title: Índice
       toc_level: 2
       ordered_chapter_level: 2
-      output_path: pdf/Manual_de_Usuario.pdf  # Ruta de salida para el PDF
-
-# Otros ajustes que puedes personalizar
+      output_path: pdf/Manual_de_Usuario.pdf  # Ruta de salida del PDF generado
 
 
 
