@@ -18,6 +18,7 @@ plugins:
       enabled if_env: ENABLE_PDF_EXPORT
       media_type: print
   - with-pdf:
+      use-cairocffi: true
       author: Olivia Susana Guziak
       copyright: CCO 1.0 Universal
       cover: true
