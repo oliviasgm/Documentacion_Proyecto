@@ -3,6 +3,7 @@ site_url: https://oliviasgm.github.io/Documentacion_Proyecto/
 docs_dir: 'docs_src'  # Carpeta de archivos de entrada
 site_dir: 'docs'      # Carpeta de salida del sitio generado
 nav:
+  - Inicio: README.md
   - Manual de Usuario: Manual_de_Usuario.md
   - Guia de Referencia: Guia_de_Referencia.md
   - Guia de Instalacion: Guia_de_Instalacion.md
