@@ -5,12 +5,12 @@ site_dir: 'docs'      # Carpeta de salida del sitio generado
 nav:
   - Inicio: README.md
   - Manual de Usuario: Manual_de_Usuario.md
-  - Guia de Referencia: Guia_de_Referencia.md
-  - Guia de Instalacion: Guia_de_Instalacion.md
+  - Guía de Referencia: Guia_de_Referencia.md
+  - Guía de Instalacion: Guia_de_Instalacion.md
   - Descarga en pdf:
       - Manual de Usuario PDF: Manual_de_Usuario/Manual_de_Usuario.pdf
-      - Guia de Referencia PDF: Guia_de_Referencia/Guia_de_Referencia.pdf
-      - Guia de Instalacion PDF: Guia_de_Instalacion/Guia_de_Instalacion.pdf
+      - Guía de Referencia PDF: Guia_de_Referencia/Guia_de_Referencia.pdf
+      - Guía de Instalacion PDF: Guia_de_Instalacion/Guia_de_Instalacion.pdf
 theme: 
   name: readthedocs
 plugins:
