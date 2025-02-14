@@ -19,7 +19,6 @@ plugins:
       enabled if_env: ENABLE_PDF_EXPORT
       media_type: print
   - with-pdf:
-      use-cairocffi: true
       author: Olivia Susana Guziak
       copyright: CCO 1.0 Universal
       cover: true
@@ -29,7 +28,7 @@ plugins:
       toc_title: Índice
       toc_level: 2
       ordered_chapter_level: 2
-      output_path: pdf/Manual_de_Usuario.pdf  # Ruta de salida del PDF generado
+      
 
 
 
